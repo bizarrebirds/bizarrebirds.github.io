@@ -1,20 +1,17 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <i>English, History, & College Prep Tutoring</i>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: headshot.avif
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -22,13 +19,22 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+If you often feel like you don’t know what to write next, are unsure why your teacher wants five paragraphs when you could make your point in five sentences, or find yourself leaning into Grammarly or ChatGPT for help, you have something in common with most of my students!
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Together, we'll uncover the <b>hidden structure of the humanities</b> with my <b>logic-based systematic method</b> for essay writing, grammar, and text analysis. 
+
+I’m <b>Kate</b>, an educator with <b>eleven years of experience</b> in teaching K-12 & college humanities subjects. I hold an MA in Anthropology and have recently served as an administrator at a local college preparatory school, building bespoke plans for college-bound students. I’ve also tutored high-achieving students in the Greater Seattle area & Bay Area for five years.
+
+My students have gone on to attend <b>Ivy Leagues, UC schools, and top-10 programs in Computer Science, Engineering, and the Pre-Medical track</b>, as well as a variety of specialized programs in other fields. No matter what your dream is, we can work together to get you there!
+
+See my class information and rates under the <b>Classes</b> tab.
+
+Contact Me<br>
+<b>Email</b>: stembrainstutor@gmail.com<br>
+<a href="https://calendly.com/stembrainstutor/30min">Book a Free Info Call</a>

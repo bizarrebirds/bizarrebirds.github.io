@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+name: M.K.<br>Pre-Med @ Baylor University
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+“You have been super helpful and really understood what I needed. [Your class] is personalized, and improved my score by at least 200 points on the SAT.”

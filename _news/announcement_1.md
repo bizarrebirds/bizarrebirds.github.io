@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+name: J.P.<br>Parent
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+"Thank you for all of your support of [E.P.] over the past couple of years. You have been a stabilizing force for her, probably more than you know."
