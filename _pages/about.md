@@ -37,4 +37,21 @@ See my class information and rates under the <b>Classes</b> tab.
 
 Contact Me<br>
 <b>Email</b>: stembrainstutor@gmail.com<br>
-<a href="https://calendly.com/stembrainstutor/30min">Book a Free Info Call</a>
+<a href="https://calendly.com/stembrainstutor/30min" 
+   style="
+      display:inline-block;
+      padding:10px 18px;
+      background:#f6b7d2;
+      color:#333;
+      text-decoration:none;
+      font-weight:600;
+      border-radius:12px;
+      border:2px solid #e59bbf;
+      font-size:14px;
+      font-family:inherit;
+      transition:background 0.2s ease;
+   "
+   onmouseover="this.style.background='#f3a4c7'"
+   onmouseout="this.style.background='#f6b7d2'">
+   📅 Book a Free Info Call
+</a>
