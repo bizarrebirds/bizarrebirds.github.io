@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/davidchu/Desktop/bizarrebirds.github.io/app/contact/page.tsx"],"sourcesContent":["import Header from \"@/app/header\";\n\nexport default function ClassesPage() {\n    return (\n        <div className=\"w-full h-screen\">\n            Contact\n        </div>\n    );\n}"],"names":[],"mappings":";;;;;;AAEe,SAAS;IACpB,qBACI,8OAAC;QAAI,WAAU;kBAAkB;;;;;;AAIzC"}}]
+}

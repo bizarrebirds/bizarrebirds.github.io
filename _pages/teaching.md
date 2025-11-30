@@ -22,7 +22,7 @@ Please see below for the list of classes that I offer tutoring for, and more inf
 <b>Initial Info Call</b><br>
 As a prospective family, you likely have a few questions to ask me about what I offer and how my style of tutoring can bolster your child's success. Similarly, I always have some questions for families about the class(es) your student is taking and/or what their college application goals are, what their timeline is like, and how they learn best. To get our questions answered, I offer 30-minute complementary phone or Zoom calls with prospective families. You may set one up via the link below.
 
-<a href="https://calendly.com/stembrainstutor/30min">Book an Initial Info Call</a>
+<a href="https://stembrainstutor.youcanbook.me/">Book an Initial Info Call</a>
 
 <b>Trial Class</b><br>
 I offer one hour-long trial class per student to allow you to get a sense of my teaching style. All trial classes are one-on-one between the teacher and the student, and they take place on Zoom.

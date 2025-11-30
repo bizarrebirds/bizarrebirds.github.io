@@ -1,0 +1,30 @@
+/* [project]/app/header.module.css [app-client] (css) */
+.header-module__u7VJiG__tab {
+  --tab-radius: 1rem;
+  background: var(--tab-bg, orange);
+  border-radius: var(--tab-radius) var(--tab-radius) 0 0;
+  z-index: 2;
+  position: relative;
+  overflow: visible;
+  box-shadow: 0 6px 14px #00000014;
+}
+
+.header-module__u7VJiG__tab:after {
+  content: "";
+  background: var(--tab-bg, orange);
+  z-index: 1;
+  border-bottom-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  height: 24px;
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  right: 0;
+  box-shadow: 0 8px 18px #0000000f;
+}
+
+.header-module__u7VJiG__tab.header-module__u7VJiG__with-shadow:after {
+  box-shadow: 0 2px #00000014;
+}
+
+/*# sourceMappingURL=app_header_module_css_bad6b30c._.single.css.map*/

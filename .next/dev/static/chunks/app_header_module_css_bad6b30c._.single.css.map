@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/header.module.css"],"sourcesContent":[".tab {\n  position: relative;\n  overflow: visible;\n  --tab-radius: 1rem;\n  background: var(--tab-bg, orange);\n  border-radius: var(--tab-radius) var(--tab-radius) 0 0;\n  box-shadow: 0 6px 14px rgba(0,0,0,0.08); /* subtle elevation */\n  z-index: 2; /* stay above the curved pseudo-element */\n}\n\n.tab::after {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  right: 0;\n  bottom: -12px; /* pull the curved piece below the button */\n  height: 24px; /* height of the curved bottom */\n  background: var(--tab-bg, orange);\n  border-bottom-left-radius: 18px;\n  border-bottom-right-radius: 18px;\n  z-index: 1; /* sit just under the tab for a continuous shape */\n  box-shadow: 0 8px 18px rgba(0,0,0,0.06); /* softer shadow for the curved piece */\n}\n\n.tab.with-shadow::after {\n  box-shadow: 0 2px 0 rgba(0,0,0,0.08);\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;AAUA;;;;;;;;;;;;;;AAcA"}}]
+}
