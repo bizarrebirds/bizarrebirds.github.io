@@ -20,7 +20,7 @@ export default function Home() {
         </div>
       </div>
       <p className="text-4xl font-bold py-4">Testimonials</p>
-      <div className="flex flex-row gap-4">
+      <div className="flex flex-col sm:flex-row gap-4">
         <Testimonial text="Kate is amazing! asdfklaj;sdlkjfa;lskdj;falkjs;dlfjasdf" author="David" />
         <Testimonial text="Kate is amazing! sldkfjlskd" author="David" />
         <Testimonial text="Kate is amazing! as;ifawoierh;wlkerl;kajw;glkjas;" author="David" />

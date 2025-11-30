@@ -1,9 +1,10 @@
 import Header from "@/app/header";
+import FolderPage from "../folderpage";
 import { Description, Subheading } from "../text";
 
 export default function ClassesPage() {
     return (
-        <div className="w-full h-screen">
+        <FolderPage>
             <Subheading text="What subjects do you tutor, and what is your rate?" />
             <Description text="Please see my class list and rate breakdown on the [Classes] page." />
             <Subheading text="Why choose this tutoring service?" />
@@ -36,6 +37,6 @@ export default function ClassesPage() {
             <Description text="For example, I use tools like audiobooks and text-to-speech to scaffold reading material; I also use graphic organizers, timelines, and similar visual tools to help students organize their thoughts when, for instance, a blank Google Doc has not proven helpful." />
             <Description text="I employ these tools with the goal of growing your child’s confidence and skill with the core concept being addressed (reading comprehension; fluent college-level writing; etc.). Over time and with dedicated, consistent effort from myself, the student, and the student’s support group (family, school, etc.), most students find academic success in my experience." />
             <Description text="It is also worth noting that I find it useful to use these tools for any student who seems like they may benefit from them, regardless of whether they have a diagnosis or not. Sometimes brains just work one way versus another, and, as an educator, it’s my responsibility to be flexible for my student’s benefit." />
-        </div>
+        </FolderPage>
     );
 }

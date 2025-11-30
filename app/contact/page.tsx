@@ -1,9 +1,10 @@
 import Header from "@/app/header";
+import FolderPage from "../folderpage";
 
 export default function ClassesPage() {
     return (
-        <div className="w-full h-screen">
+        <FolderPage>
             Contact
-        </div>
+        </FolderPage>
     );
 }
