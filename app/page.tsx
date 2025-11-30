@@ -1,4 +1,5 @@
 import Image from "next/image";
+import FolderPage from "./folderpage";
 
 function Testimonial({ text, author }) {
   return (
@@ -11,9 +12,10 @@ function Testimonial({ text, author }) {
 
 export default function Home() {
   return (
-    <div>
+    <FolderPage>
       <p className="text-5xl font-bold">Hook up here</p>
-      <div className="flex flex-row items-center">
+      <div className="flex flex-col sm:flex-row items-center">
+        <br/>
         <p className="flex-auto text-lg">Hello, I'm Kate</p>
         <div className="relative h-48 w-48">
           <Image src="/headshot.avif" alt="Kate's headshot" fill style={{ objectFit: "contain" }} />
@@ -27,6 +29,6 @@ export default function Home() {
         <Testimonial text="Kate is amazing! dsfsd" author="David" />
         <Testimonial text="Kate is amazing! owiejroiwejoirjew" author="David" />
       </div>
-    </div>
+    </FolderPage>
   );
 }

@@ -4,7 +4,7 @@ import { Description, Subheading } from "../text";
 
 export default function ClassesPage() {
     return (
-        <FolderPage>
+        <FolderPage className="pt-0!">
             <Subheading text="What subjects do you tutor, and what is your rate?" />
             <Description text="Please see my class list and rate breakdown on the [Classes] page." />
             <Subheading text="Why choose this tutoring service?" />

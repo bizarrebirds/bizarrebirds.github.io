@@ -42,7 +42,16 @@ function HeaderButton({ name, selected, href }) {
             <TabSquare before={false} selected={selected} />
             <TabCircle before={false} />
         </div>
+    )
+}
 
+function MobileHeaderButton({ name, href }) {
+    return (
+        <ButtonBase href={href}>
+            <div className={`py-1 px-8 selected`}>
+                {name}
+            </div>
+        </ButtonBase>
     )
 }
 
@@ -66,10 +75,14 @@ export default function Header() {
             </div>
 
             <Drawer anchor="top" variant="temporary" open={open}>
-                <MenuButton onClick={() => setOpen(false)} />
-                <HeaderButton name="Classes" href="classes" selected={pathname === "/classes"} />
-                <HeaderButton name="FAQ" href="faq" selected={pathname === "/faq"} />
-                <HeaderButton name="Contact" href="contact" selected={pathname === "/contact"} />
+                <div className="selected flex flex-row items-start px-4 py-4">
+                    <MenuButton onClick={() => setOpen(false)} />
+                    <div className="grow flex flex-col gap-6 pt-1 pr-7">
+                        <MobileHeaderButton name="Classes" href="classes" />
+                        <MobileHeaderButton name="FAQ" href="faq" />
+                        <MobileHeaderButton name="Contact" href="contact" />
+                    </div>
+                </div>
             </Drawer>
 
             <div className="hidden sm:flex flex-row items-stretch gap-8 pr-3">

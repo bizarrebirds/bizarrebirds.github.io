@@ -30,7 +30,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased w-full px-4 py-4`}>
         <div className="max-w-7xl m-auto flex flex-col items-stretch">
           <Header />
-          <div className="selected">
+          <div className="selected rounded-2xl">
             {children}
           </div>
           <BookClassButton />
