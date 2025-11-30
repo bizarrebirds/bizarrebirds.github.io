@@ -30,10 +30,9 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased w-full px-4 py-4`}>
         <div className="max-w-7xl m-auto flex flex-col items-stretch">
           <Header />
-          <div style={{ backgroundColor: "yellow" }}>
+          <div className="selected">
             {children}
           </div>
-
           <BookClassButton />
         </div>
       </body>
