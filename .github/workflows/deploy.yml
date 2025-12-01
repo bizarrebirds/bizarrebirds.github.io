@@ -68,6 +68,9 @@ jobs:
         with:
           path: ./out
 
+      - name: Disable Jekyll
+        run: touch ./out/.nojekyll
+
   deploy:
     environment:
       name: github-pages
