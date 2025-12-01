@@ -35,7 +35,7 @@ function HeaderButton({ name, selected, href }) {
             <TabCircle before={true} />
             <TabSquare before={true} selected={selected} />
             <ButtonBase href={href}>
-                <div className={`py-1 px-8 border-4 border-transparent rounded-t-2xl ${selected ? "selected" : "unselected"}`}>
+                <div className={`sm:py-2 md:py-1 px-8 border-4 border-transparent rounded-t-2xl font-semibold ${selected ? "selected" : "unselected"}`}>
                     {name}
                 </div>
             </ButtonBase>
@@ -85,7 +85,7 @@ export default function Header() {
                 </div>
             </Drawer>
 
-            <div className="hidden sm:flex flex-row items-stretch gap-8 pr-3">
+            <div className="hidden sm:flex flex-row items-stretch gap-8 pr-8">
                 <HomeButton />
                 <HeaderButton name="Classes" href="classes" selected={pathname === "/classes"} />
                 <HeaderButton name="FAQ" href="faq" selected={pathname === "/faq"} />
