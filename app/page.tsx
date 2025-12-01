@@ -22,9 +22,9 @@ export default function Home() {
           <Image src="/headshot.avif" alt="Kate's headshot" fill style={{ objectFit: "contain" }} />
         </div>
         <Description>If you often feel like you don’t know what to write next, are unsure why your teacher wants five paragraphs when you could make your point in five sentences, or find yourself leaning into Grammarly or ChatGPT for help, you have something in common with most of my students!</Description>
-        <Description>Together, we’ll uncover the hidden structure of the humanities with my logic-based systematic method for essay writing, grammar, and text analysis.</Description>
-        <Description>I’m Kate, an educator with eleven years of experience in teaching K-12 & college humanities subjects. I hold an MA in Anthropology and have recently served as an administrator at a local college preparatory school, building bespoke plans for college-bound students. I’ve also tutored high-achieving students in the Greater Seattle area & Bay Area for five years.</Description>
-        <Description>My students have gone on to attend Ivy Leagues, UC schools, and top-10 programs in Computer Science, Engineering, and the Pre-Medical track, as well as a variety of specialized programs in other fields. No matter what your dream is, we can work together to get you there!</Description>
+        <Description>Together, we’ll uncover the <b>hidden structure of the humanities</b> with my <b>logic-based systematic method</b> for essay writing, grammar, and text analysis.</Description>
+        <Description>I’m <b>Kate</b>, an educator with <b>eleven years of experience</b> in teaching K-12 & college humanities subjects. I hold an MA in Anthropology and have recently served as an administrator at a local college preparatory school, building bespoke plans for college-bound students. I’ve also tutored high-achieving students in the Greater Seattle area & Bay Area for five years.</Description>
+        <Description>My students have gone on to attend <b>Ivy Leagues, UC schools, and top-10 programs in Computer Science, Engineering, and the Pre-Medical track</b>, as well as a variety of specialized programs in other fields. No matter what your dream is, we can work together to get you there!</Description>
         <Description>See my class information and rates under the <Link href="/classes">Classes</Link> tab.</Description>
         
       </div>
