@@ -1,9 +1,8 @@
 # [Humanities for STEM Brains](https://stembrainstutor.com/)
 
-Install [Node.js](https://nodejs.org/en/download/), then install and run with:
+Install [pnpm](https://pnpm.io/installation), then install and run with:
 ```bash
-npm install
-npm run build
+pnpm install
 npm run dev
 ```
 
