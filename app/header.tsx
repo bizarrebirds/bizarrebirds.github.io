@@ -2,15 +2,16 @@
 import { ButtonBase, Drawer, IconButton, Menu } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import { usePathname } from 'next/navigation'
-import { Fragment } from "react/jsx-runtime";
 import React from "react";
+import Image from "next/image";
 
 function HomeButton() {
     return (
-        <div className="grow">
-            <ButtonBase href="/">
-                <div className="px-4">
-                    Humanities for STEM Brains
+        <div className="grow sm:mb-3">
+            <ButtonBase href="/" sx={{ borderRadius: '16px' }}>
+                <div className="relative h-16"
+                    style={{ aspectRatio: "27 / 8" }}>
+                    <Image src="humanities_logo_long.png" alt="Humanities for STEM Brains" fill style={{ objectFit: "contain" }} />
                 </div>
             </ButtonBase>
         </div>
@@ -31,10 +32,10 @@ function TabSquare({ before, selected }) {
 
 function HeaderButton({ name, selected, href }) {
     return (
-        <div className="relative">
+        <div className="relative content-end">
             <TabCircle before={true} />
             <TabSquare before={true} selected={selected} />
-            <ButtonBase href={href}>
+            <ButtonBase href={href} sx={{ borderTopLeftRadius: '16px', borderTopRightRadius: '16px' }}>
                 <div className={`sm:py-2 md:py-1 px-8 border-4 border-transparent rounded-t-2xl font-semibold ${selected ? "selected" : "unselected"}`}>
                     {name}
                 </div>
@@ -55,9 +56,9 @@ function MobileHeaderButton({ name, href }) {
     )
 }
 
-function MenuButton({ onClick }) {
+function MenuButton({ onClick, className = "" }) {
     return (
-        <IconButton color="inherit" onClick={onClick}>
+        <IconButton color="inherit" onClick={onClick} className={className}>
             <MenuIcon />
         </IconButton>
     )
@@ -70,7 +71,7 @@ export default function Header() {
     return (
         <div>
             <div className="sm:hidden flex flex-row items-center mb-4 mt-2">
-                <MenuButton onClick={() => setOpen(true)} />
+                <MenuButton onClick={() => setOpen(true)} className="mr-4!" />
                 <HomeButton />
             </div>
 

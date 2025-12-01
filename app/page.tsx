@@ -30,11 +30,9 @@ export default function Home() {
       </div>
       <Subheading className="text-center sm:text-left">Testimonials</Subheading>
       <div className="flex flex-row flex-wrap gap-2">
-        <Testimonial author="M.K. Pre-Med @ Baylor University">You have been super helpful and really understood what I needed. [Your class] is personalized, and improved my score by at least 200 points on the SAT.</Testimonial>
-        <Testimonial author="A.N.
-Engineering @ University of Washington">Thank you so much for being so supportive and helpful through my college application process!</Testimonial>
-        <Testimonial author="J.P.
-Parent">Thank you for all of your support of [E.P.] over the past couple of years. You have been a stabilizing force for her, probably more than you know.</Testimonial>
+        <Testimonial author="M.K., Pre-Med @ Baylor University">You have been super helpful and really understood what I needed. [Your class] is personalized, and improved my score by at least 200 points on the SAT.</Testimonial>
+        <Testimonial author="A.N., Engineering @ University of Washington">Thank you so much for being so supportive and helpful through my college application process!</Testimonial>
+        <Testimonial author="J.P., Parent">Thank you for all of your support of [E.P.] over the past couple of years. You have been a stabilizing force for her, probably more than you know.</Testimonial>
       </div>
     </FolderPage>
   );

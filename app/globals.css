@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #fffff0;
   --foreground: #171717;
   --header: #98aed3;
   --body: #3c4142;
@@ -42,6 +42,16 @@ li > * {
 a {
     color: var(--header);
     text-decoration: underline;
+}
+
+.white-background {
+    background-color: var(--color-background);
+}
+
+.sm\:white-background {
+    @media (width >= 40rem /* 640px */) {
+        background-color: var(--color-background);
+    }
 }
 
 .selected {

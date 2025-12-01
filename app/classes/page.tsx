@@ -43,11 +43,12 @@ export default function ClassesPage() {
                     <li><Description>College Application Essay Writing: Common App, Coalition App, UCs, and individual</Description></li>
                     <li><Description>College Application Review: Common App, Coalition App, UCs, and individual</Description></li>
                     <li><Description>College Interview Preparation</Description></li>
+                    <li><Description>CV/Resume Writing</Description></li>
                 </ul>
 
                 <Description className="text-xs">*For all AP classes, tutoring sessions cover course content as well as AP test preparation (including essays, MCQs, DBQs, etc.). If you are not planning to take the AP test, please let me know as soon as you make that decision so that we can focus your tutoring sessions appropriately.</Description>
             </div>
-            <div className="flex-1 mt-12 rounded-2xl sm:mt-0 sm:mx-4 sm:px-4 sm:py-4 sm:bg-white">
+            <div className="flex-1 mt-12 rounded-2xl sm:mt-0 sm:mx-4 sm:px-4 sm:py-4 sm:white-background">
                 <Subheading className="mt-0!">What I Offer</Subheading>
                 <ul>
                     <li><Description><Link href="#initial-info-call">Initial Info Call (free)</Link></Description></li>
@@ -75,7 +76,7 @@ export default function ClassesPage() {
                 During the trial class, we will get to know each other, and I will work through relevant class material with you. If you have current work that you would like assistance with, I recommend providing it to me ahead of time via email and bringing it to the trial class.</Description>
 
                 <Subheading id="one-on-one-tutoring">1:1 Tutoring Sessions</Subheading>
-                <Description>All classes take place on Zoom. I book tutoring sessions in blocks of 10 to allow predictability in our calendars.</Description>
+                <Description>All classes take place on Zoom. A discount is available if you book tutoring sessions in blocks of 10, to allow predictability in our calendars.</Description>
 
                 <Subheading id="small-group-tutoring">Small Group Tutoring Sessions</Subheading>
                 <Description>Siblings or friends who are taking the same class (i.e. AP English Language) may inquire about small group classes at a reduced per-person rate. Typically, I allow a maximum of 3 students in a small group session so as to ensure I am able to spend ample time with each one individually. In your initial info call, please let me know if you are interested in this option - I would be happy to discuss our options. All listed classes are available for small group tutoring sessions.</Description>
