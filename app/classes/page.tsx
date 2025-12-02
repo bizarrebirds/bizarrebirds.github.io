@@ -33,15 +33,18 @@ export default function ClassesPage() {
                     <li><Description>Special Topics History (i.e. World Religions, LGBTQ+ History, etc.)</Description></li>
                 </ul>
 
-                <Subheading>College Preparation</Subheading>
+                <Subheading>Exam & College Preparation</Subheading>
                 <ul>
-                    <li><Description>SAT Reading</Description></li>
-                    <li><Description>SAT Writing</Description></li>
-                    <li><Description>ACT English</Description></li>
-                    <li><Description>ACT Reading</Description></li>
-                    <li><Description>ACT Optional Writing (essay)</Description></li>
+                    <li><Description>SAT Reading and Writing</Description></li>
+                    <li><Description>ACT English, Reading, and Optional Writing (essay)</Description></li>
+                    <li><Description>PSAT/NMSQT Reading and Writing</Description></li>
+                    <li><Description>SSAT Verbal and Reading</Description></li>
+                    <li><Description>ISEE Verbal Reasoning, Reading Comprehension, and Essay</Description></li>
+                    <li><Description>CoGAT all sections (Verbal, Quantitative, Nonverbal)</Description></li>
+                    <li><Description>TOEFL iBT all sections (Reading, Listening, Speaking, and Writing)</Description></li>
+                    <li><Description>GRE Analytical Writing and Verbal Reasoning</Description></li>
                     <li><Description>College Application Essay Writing: Common App, Coalition App, UCs, and individual</Description></li>
-                    <li><Description>College Application Review: Common App, Coalition App, UCs, and individual</Description></li>
+                    <li><Description>College Counseling & Application Review: Common App, Coalition App, UCs, and individual</Description></li>
                     <li><Description>College Interview Preparation</Description></li>
                     <li><Description>CV/Resume Writing</Description></li>
                 </ul>
@@ -79,7 +82,7 @@ export default function ClassesPage() {
                 <Description>All classes take place on Zoom. A discount is available if you book tutoring sessions in blocks of 10, to allow predictability in our calendars.</Description>
 
                 <Subheading id="small-group-tutoring">Small Group Tutoring Sessions</Subheading>
-                <Description>Siblings or friends who are taking the same class (i.e. AP English Language) may inquire about small group classes at a reduced per-person rate. Typically, I allow a maximum of 3 students in a small group session so as to ensure I am able to spend ample time with each one individually. In your initial info call, please let me know if you are interested in this option - I would be happy to discuss our options. All listed classes are available for small group tutoring sessions.</Description>
+                <Description>Siblings or friends who are taking the same class (e.g. AP English Language) may inquire about small group classes at a reduced per-person rate. Typically, I allow a maximum of 3 students in a small group session so as to ensure I am able to spend ample time with each one individually. In your initial info call, please let me know if you are interested in this - I would be happy to discuss our options. All listed classes are available for small group tutoring sessions.</Description>
             </div>
         </FolderPage>
     );

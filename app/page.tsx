@@ -5,9 +5,18 @@ import Link from "next/dist/client/link";
 
 function Testimonial({ children, author }) {
   return (
-    <div>
-      <Description>"{children}"</Description>
+    <div className="inline-block align-top w-60 white-background rounded-2xl p-4 mr-8">
+      <Description className="mt-0!">"{children}"</Description>
       <Description className="text-xs italic">- {author}</Description>
+    </div>
+  )
+}
+
+function TestimonialContainer({children}) {
+  return (
+    <div className="overflow-x-auto flex flex-row flex-nowrap items-start">
+      <div className="whitespace-nowrap testimonial-parent">{children}</div>
+      <div className="whitespace-nowrap testimonial-parent">{children}</div>
     </div>
   )
 }
@@ -29,11 +38,25 @@ export default function Home() {
         
       </div>
       <Subheading className="text-center sm:text-left">Testimonials</Subheading>
-      <div className="flex flex-row flex-wrap gap-2">
-        <Testimonial author="M.K., Pre-Med @ Baylor University">You have been super helpful and really understood what I needed. [Your class] is personalized, and improved my score by at least 200 points on the SAT.</Testimonial>
-        <Testimonial author="A.N., Engineering @ University of Washington">Thank you so much for being so supportive and helpful through my college application process!</Testimonial>
-        <Testimonial author="J.P., Parent">Thank you for all of your support of [E.P.] over the past couple of years. You have been a stabilizing force for her, probably more than you know.</Testimonial>
-      </div>
+      <TestimonialContainer>
+        <Testimonial author="M., Pre-Med @ Baylor University">You have been super helpful and really understood what I needed. [Your class] is personalized, and improved my score by at least 200 points on the SAT.</Testimonial>
+        <Testimonial author="A., Engineering @ University of Washington">Thank you so much for being so supportive and helpful through my college application process, I really appreciate it!</Testimonial>
+        <Testimonial author="J., parent">Thank you for all of your support of [E.P.] over the past couple of years. You have been a stabilizing force for her, probably more than you know.</Testimonial>
+        <Testimonial author="M., University of Texas @ Austin">I got in! Thank you so much for all your help. I absolutely could not have done this without you :) You have been super helpful and really understood what I needed.</Testimonial>
+        <Testimonial author="L., Physics @ Washington University of St. Louis">This class has tremendously helped me in my SAT progression and I have drastically improved in my test taking abilities. The environment is very welcoming and it has really fostered me to have a very positive mindset on my SAT preparation.</Testimonial>
+        <Testimonial author="C., high school senior">The best thing is it is completely personalized so it helps you with all your needs. From SAT prep to helping with school subjects, you were really nice and super helpful.</Testimonial>
+        <Testimonial author="R., high school junior">You helped me get more confident with my SAT and school, and you’re extremely friendly and understanding.</Testimonial>
+        <Testimonial author="A., high school sophomore">I’ve improved my LASS [Language Arts & Social Studies] scores so much after studying with you for about a year. I feel more confident than before!</Testimonial>
+        <Testimonial author="R., Computer Science @ Gonzaga">Thanks for narrowing [my essay] down so much. It is harder to delete stuff when I am the one who wrote it since I would like every part of what I wrote; having an outside perspective definitely helps.</Testimonial>
+        <Testimonial author="A., Business @ Chapman University">Thanks for helping with making my speech as clear and memorable as possible.</Testimonial>
+        <Testimonial author="N., Mathematics & Computer Science @ UC San Diego">I feel as if I have really improved on my SAT skills.</Testimonial>
+        <Testimonial author="R., high school senior">You’ve been so helpful! I’ll miss you a lot and I hope to see you again sometime! Thank you so much, Ms. Kate!</Testimonial>
+        <Testimonial author="E., Computer Engineering @ University of Washington">Great class to help you if you struggle.</Testimonial>
+        <Testimonial author="D., fellow tutor">Thank you so much for all your hard work! I really appreciated having your kind and warm presence [on our team].</Testimonial>
+        <Testimonial author="E., Software Engineer @ Amazon">I learned a lot!</Testimonial>
+        <Testimonial author="D., parent">I wanted to say thank you again for everything you did for J. Take care!</Testimonial>
+        <Testimonial author="S., parent">Thanks for your kind help!</Testimonial>
+      </TestimonialContainer>
     </FolderPage>
   );
 }
