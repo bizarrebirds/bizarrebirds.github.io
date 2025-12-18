@@ -19,7 +19,7 @@ export default function ClassesPage() {
                     <li><Description>AP English Literature & Composition*</Description></li>
                 </ul>
 
-                <Subheading>History</Subheading>
+                <Subheading>History & Social Sciences</Subheading>
                 <ul>
                     <li><Description>K-8 History, Geography, and related courses</Description></li>
                     <li><Description>United States History</Description></li>
@@ -30,6 +30,7 @@ export default function ClassesPage() {
                     <li><Description>AP United States Government & Politics*</Description></li>
                     <li><Description>AP Comparative Government & Politics*</Description></li>
                     <li><Description>AP European History*</Description></li>
+                    <li><Description>AP Psychology*</Description></li>
                     <li><Description>Special Topics History (i.e. World Religions, LGBTQ+ History, etc.)</Description></li>
                 </ul>
 
