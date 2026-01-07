@@ -16,9 +16,8 @@ const bodyFont = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "Humanities for STEM Brains",
-    description: "",
-    icons: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📝</text></svg>",
+    title: "Humanities for STEM Brains - 1:1 Tutoring",
+    description: "Uncover the hidden structure of the humanities with my logic-based systematic method for essay writing, grammar, and text analysis.",
 };
 
 export default function RootLayout({
@@ -29,6 +28,13 @@ export default function RootLayout({
     return (
         <html lang="en">
             <GoogleAnalytics gaId="G-HQFZGPCBNV" />
+            <head>
+                <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+                <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+                <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+                <link rel="manifest" href="/site.webmanifest" />
+                <title>Humanities for STEM Brains - 1:1 Tutoring</title>
+            </head>
             <body className={`${headerFont.variable} ${bodyFont.variable} antialiased w-full px-4 py-4`}>
                 <div className="max-w-7xl m-auto flex flex-col items-stretch">
                     <Header />
