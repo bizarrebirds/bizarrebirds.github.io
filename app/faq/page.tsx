@@ -5,6 +5,7 @@ import Link from "next/link";
 export default function ClassesPage() {
     return (
         <FolderPage className="pt-0!">
+            <Subheading className="text-5xl mt-0!">FAQ</Subheading>
             <Subheading>What subjects do you tutor, and what is your rate?</Subheading>
             <Description>Please see my class list and rate breakdown on the <Link href="/classes">Classes</Link> page.</Description>
             <Subheading>Why choose this tutoring service?</Subheading>
