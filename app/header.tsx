@@ -80,6 +80,7 @@ export default function Header() {
                     <MenuButton onClick={() => setOpen(false)} />
                     <div className="grow flex flex-col gap-6 pt-1 pr-7">
                         <MobileHeaderButton name="Classes" href="classes" />
+                        <MobileHeaderButton name="Videos" href="videos" />
                         <MobileHeaderButton name="FAQ" href="faq" />
                         <MobileHeaderButton name="Contact" href="contact" />
                     </div>
@@ -89,6 +90,7 @@ export default function Header() {
             <div className="hidden sm:flex flex-row items-stretch gap-8 pr-8">
                 <HomeButton />
                 <HeaderButton name="Classes" href="classes" selected={pathname === "/classes"} />
+                <HeaderButton name="Videos" href="videos" selected={pathname === "/videos"} />
                 <HeaderButton name="FAQ" href="faq" selected={pathname === "/faq"} />
                 <HeaderButton name="Contact" href="contact" selected={pathname === "/contact"} />
             </div>
